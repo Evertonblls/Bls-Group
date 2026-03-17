@@ -222,9 +222,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min
 <script>
 // ── CONFIG ─────────────────────────────────────────────────────────────────
 // Troque pela URL da sua API depois de hospedar (ex: https://bls-api.railway.app)
-const API = window.location.hostname === 'localhost'
-  ? 'http://localhost:3001'
-  : '';  // mesma origem se servido pelo próprio backend
+const API = 'https://apieltyb.up.railway.app';
 
 // ── STATE ──────────────────────────────────────────────────────────────────
 let data = { clients: [], tasks: [], metas: [] };
